@@ -15,7 +15,7 @@ body{
     position: relative;
 }
 .container-2{
-    background-color: blue;
+    background-color: wheat;
     width: 60%;
 }
 .logo{
@@ -33,4 +33,88 @@ body{
     position: absolute;
     right: 65%;
     top: 23%
+}
+.description{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 1.5rem;
+}
+.form-container{
+    background-color: aliceblue;
+    margin-top: 10%;
+    padding: 15px;
+    border-top: 2px solid rgb(147, 160, 159);
+    border-bottom: 2px solid rgb(147, 160, 159);
+}
+.form-1{
+
+}
+.form-container > p{
+    margin-left: 5%;
+    
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(61, 57, 55);
+
+}
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: rgb(61, 57, 55);
+    font-family: inherit;
+    letter-spacing: 0.1rem;
+    font-size: 0.65rem;
+
+}
+.sec-1-1{
+
+    margin-left: 5%;
+}
+.sec-1-2{
+
+    margin-right: 50%;
+}
+
+label, input{
+    display: block;
+}
+input{
+    border-color: wheat;
+    border:1px solid grey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+input:focus{
+    outline: none !important;
+    border:1px solid wheat;
+    box-shadow: 0 0 10px #719ECE;
+}
+.sign-up{
+    margin: 5% 0 10% 5%;
+}
+#signup{
+    padding: 15px 35px;
+    border:1px solid grey;
+    background-color: aliceblue;
+    border-radius: 6px;
+
+}
+#signup:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+}
+#signup:hover{
+    background-color: rgba(240, 248, 255, 0.623);
+}
+.sign-up{
+
+}
+.sign-up p a{
+    color:blue;
+}
+.sign-up p a:hover{
+    color:white;
 }
